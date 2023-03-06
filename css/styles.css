@@ -1,0 +1,121 @@
+
+body {
+	  background-color: black !important ;
+	  font-family: Times New Roman !important;
+	  margin: 0;
+}
+
+.icon-bar{
+	
+  background-color: grey;
+  width: 130px;
+  height: 100vh;
+  position: fixed;
+}
+.icon-bar a{
+	display: block;
+  text-align: center;
+  font-size: 2.5rem;
+  padding: 1.5rem;
+}
+.icon-bar p{
+	font-family: Times New Roman;
+	font-size: 15px;
+	text-align: center;
+	color: snow;
+}
+.icon-bar a:hover{
+	background-color: black;
+}
+i.fa{
+	color: whitesmoke;
+}
+
+.container1{
+	padding: 150px 5px 5px 100px;
+	text-align: center;
+	color: whitesmoke;
+}
+.container2{
+	padding: 5px 35px 5px 180px;
+}
+.container3{
+	padding: 5px 35px 5px 180px;
+}
+.container4{
+	padding: 5px 250px 5px 250px;
+}
+.container4 i.fa{
+	color: whitesmoke;
+}
+.container6 i.fa{
+	color: steelblue;
+}
+
+.container5{
+	text-align: center;
+	padding: 5px 5px 5px 120px;
+}
+.container6{
+	padding: 5px 90px 5px 250px;
+}
+.container7{
+	padding: 5px 90px 5px 250px;
+}
+.container7 i.fa{
+	display: inline-block;
+	color: whitesmoke;
+	font-size: 30px;
+}
+
+h1,h2{
+	font-family: Times New Roman;
+	text-align: center;
+	color: whitesmoke;
+}
+h4{
+	font-family: Times New Roman;
+	color: whitesmoke;
+}
+p{
+	font-family: Times New Roman;
+	font-size: 20px;
+	color: whitesmoke;
+}
+p.box{
+	font-size: 30px;
+	color: whitesmoke;
+}
+
+ul{
+	color: whitesmoke;
+	font-family: Times New Roman;
+	font-size: 20px;
+}
+
+.typewriter h1 {
+	justify-content: center;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid white; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 5.5s steps(30, end),
+    blink-caret 0.75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 50% }
+
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: whitesmoke; }
+}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
